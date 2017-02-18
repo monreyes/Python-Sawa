@@ -23,6 +23,9 @@ while guesses < tries:
 
     guesses = guesses + 1
 
+    if (guess < minnum or guess > maxnum):
+        print('Pay attention! I told you, the number is between '+ str(minnum) +' and '+ str(maxnum) +' only!')
+
     if guess < mynum:
         print('Your guess is too low. You only have '+ str(tries - guesses) +' tries left')
 
