@@ -6,7 +6,7 @@ maxnum = 100
 tries = 5
 
 print("Hi there, welcome to my world")
-yourName = raw_input("What is your name?")
+yourName = raw_input("What is your name? ")
 
 mynum = random.randint(1,100)
 #print mynum
@@ -15,6 +15,7 @@ mynum = random.randint(1,100)
 print('Nice to meet you '+ yourName +' ,well I am thinking of a number from ' + str(minnum) +' to '+ str(maxnum) )
 #print(minnum  maxnum)
 #yourguess = print("Guess my number: ")
+
 
 while guesses < tries:
     print('Guess my number.')
