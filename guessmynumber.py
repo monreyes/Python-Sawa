@@ -3,7 +3,7 @@ import random
 guesses = 0
 minnum = 1
 maxnum = 100
-tries = 5
+tries = 6
 
 print("Hi there, welcome to my world")
 yourName = raw_input("What is your name? ")
@@ -18,7 +18,7 @@ print('Nice to meet you '+ yourName +' ,well I am thinking of a number from ' + 
 
 
 while guesses < tries:
-    print('Guess my number.')
+    print('Guess my number in '+ str(tries - guesses)+' tries')
     guess = input()
     guess = int(guess)
 
