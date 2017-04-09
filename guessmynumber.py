@@ -6,7 +6,7 @@ maxnum = 100
 tries = 6
 
 print("Hi there, welcome to my world")
-yourName = raw_input("What is your name? ")
+yourName = input("What is your name? ")
 
 mynum = random.randint(1,100)
 #print mynum
